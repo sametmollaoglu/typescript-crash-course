@@ -1,35 +1,35 @@
-import { Shape } from "./Shape";
+// import { Shape } from "./Shape";
 
-export class Rectangle extends Shape {
-  calculateArea(): number {
-    return this._width * this._length;
-  }
-  constructor(
-    _x: number,
-    _y: number,
-    private _width: number,
-    private _length: number
-  ) {
-    super(_x, _y);
-  }
+// export class Rectangle extends Shape {
+//   calculateArea(): number {
+//     return this._width * this._length;
+//   }
+//   constructor(
+//     _x: number,
+//     _y: number,
+//     private _width: number,
+//     private _length: number
+//   ) {
+//     super(_x, _y);
+//   }
 
-  public get width(): number {
-    return this._width;
-  }
+//   public get width(): number {
+//     return this._width;
+//   }
 
-  public set width(value: number) {
-    this._width = value;
-  }
+//   public set width(value: number) {
+//     this._width = value;
+//   }
 
-  public get length(): number {
-    return this._length;
-  }
+//   public get length(): number {
+//     return this._length;
+//   }
 
-  public set length(value: number) {
-    this._length = value;
-  }
+//   public set length(value: number) {
+//     this._length = value;
+//   }
 
-  getInfo(): string {
-    return super.getInfo() + `, width=${this._width}, length=${this._length}`;
-  }
-}
+//   getInfo(): string {
+//     return super.getInfo() + `, width=${this._width}, length=${this._length}`;
+//   }
+// }
